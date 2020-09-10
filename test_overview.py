@@ -1,5 +1,5 @@
 '''
-临时汇总
+python功能汇总
 @author jyuan
 '''
 #1.python下载文件
