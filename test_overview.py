@@ -153,5 +153,16 @@ import csv
 with open(r"C:\Users\Jensen\Desktop\python_py\pytorch_test\prognostics\bearing_1.csv", 'w', newline='') as csvfile:
     writer  = csv.writer(csvfile)
     for i in range(len(data)):
-        writer.writerow(data[i:i+1])   
+        writer.writerow(data[i:i+1])  
 
+#11.matplotlib相关参数设置
+# 中设置坐标刻度值的大小以及刻度值的字体
+plt.tick_params(labelsize=23) 
+
+# 设置横纵坐标的名称以及对应字体格式
+font2 = {'family': 'Times New Roman',
+         'weight': 'normal',
+         'size': 30,
+         }
+plt.xlabel('round', font2)
+plt.ylabel('value', font2)
