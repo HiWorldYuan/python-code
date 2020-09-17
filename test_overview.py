@@ -166,3 +166,11 @@ font2 = {'family': 'Times New Roman',
          }
 plt.xlabel('round', font2)
 plt.ylabel('value', font2)
+
+#12.程序运行时间
+import datetime
+startTime = datetime.datetime.now()
+#代码运行
+endTime = datetime.datetime.now()
+
+print("运行时间：",(endTime-startTime).total_seconds(),"s")
